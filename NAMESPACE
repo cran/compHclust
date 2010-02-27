@@ -1,2 +1,2 @@
-useDynLib(compHclust)
+useDynLib(compHclust,UA)
 export(compHclust,compHclust.heatmap)

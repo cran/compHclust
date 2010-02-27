@@ -2,10 +2,10 @@
 
 \alias{compHclust.heatmap}
 
-\title{Heat Map For Complementary Hierarchical Clustering}
+\title{Heat Map for Complementary Hierarchical Clustering}
 
 \description{Displays a heat map of X, a dendrogram of the clustering of
-  the columns of X and a bar plot of the relative gene importance.}
+  the columns of X and a bar plot of the relative gene importances.}
 
 \usage{
 compHclust.heatmap(x, xhc, gi, d.title = "Cluster Dendrogram",
@@ -19,7 +19,7 @@ compHclust.heatmap(x, xhc, gi, d.title = "Cluster Dendrogram",
   columns.}
   \item{xhc}{An object of class \code{hclust}, specifically, a hierarchical
   clustering of the columns of X.}
-  \item{gi}{A vector of the relative gene importance, as returned by
+  \item{gi}{A vector of the relative gene importances, as returned by
   \code{\link{compHclust}}.}
   \item{d.title}{The title for the dendrogram.}
   \item{hm.lab}{Logical.  If true, the columns of the heat map are
@@ -40,9 +40,9 @@ compHclust.heatmap(x, xhc, gi, d.title = "Cluster Dendrogram",
 }
 
 \details{Given a numeric matrix X, a hierarchical clustering of the
-  columns of X and a vector of the relative gene importance as returned
+  columns of X and a vector of the relative gene importances as returned
   by \code{\link{compHclust}}, this function displays a heat map of X
-  with a dendrogram above and a bar plot of the relative gene importance
+  with a dendrogram above and a bar plot of the relative gene importances
   to the right.  The columns of X are reordered to correspond with the
   leaves of the dendrogram.
 
@@ -57,9 +57,9 @@ compHclust.heatmap(x, xhc, gi, d.title = "Cluster Dendrogram",
   \code{\link{compHclust}}.
 }
 
-\references{Nowak, G. and Tibshirani, R.  (18 December 2007).
-  Complementary hierarchical clustering.  \emph{Biostatistics}
-  doi:10.1093/biostatistics/kxm046.}
+\references{Nowak, G. and Tibshirani, R.  (2008)  Complementary
+  hierarchical clustering.  \emph{Biostatistics}, \bold{9}(3),
+  467--483.}
 
 \author{Gen Nowak \email{gnowak@stanford.edu} and Robert Tibshirani
   \email{tibs@stanford.edu}}

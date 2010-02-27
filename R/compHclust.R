@@ -1,5 +1,11 @@
 `compHclust` <-
 function(x,xhc) {
+  if ((!is.matrix(x))|(!is.numeric(x))) {
+    stop("'x' must be a numeric matrix")
+  }
+  if (any(is.na(as.vector(x)))) {
+    stop("'x' has missing values, please impute missing values")
+  }
   if (class(xhc)!="hclust") {
     stop("'xhc' must be of class 'hclust'")
   }
