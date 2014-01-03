@@ -61,8 +61,7 @@ compHclust.heatmap(x, xhc, gi, d.title = "Cluster Dendrogram",
   hierarchical clustering.  \emph{Biostatistics}, \bold{9}(3),
   467--483.}
 
-\author{Gen Nowak \email{gnowak@stanford.edu} and Robert Tibshirani
-  \email{tibs@stanford.edu}}
+\author{Gen Nowak \email{gen.nowak@gmail.com} and Robert Tibshirani}
 
 \seealso{\code{\link{compHclust}}}
 
