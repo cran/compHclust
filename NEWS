@@ -1,3 +1,8 @@
+Version 1.0-3  2017-05-04
+-----------------------------------------------------------------
+* Imported 'graphics' and 'stats' functions in NAMESPACE.
+* Registered native routines.
+
 Version 1.0-2  2014-01-03
 -----------------------------------------------------------------
 * Updated maintainer email address.
